@@ -1,10 +1,12 @@
-
-import './app.css';
+import "./app.css";
+import Loginbox from "./components/loginbox";
 
 function App() {
-  return (
-    <h1>Hello :)</h1>
-  );
+	return (
+		<>
+			<Loginbox />
+		</>
+	);
 }
 
 export default App;
