@@ -1,15 +1,12 @@
-import "./app.css";
-import Loginbox from "./components/loginbox";
+import styles from "./app.module.css";
+import Login from "./components/login/login";
+import React from "react";
 
-function App() {
-	const onClick = () => {
-		const provider = new firebase.auth.GoogleAuthProvider();
-	};
-
+function App({ authService }) {
 	return (
-		<>
-			<Loginbox />
-		</>
+		<div className={styles.app}>
+			<Login authService={authService} />
+		</div>
 	);
 }
 

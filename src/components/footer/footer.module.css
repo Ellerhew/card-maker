@@ -3,10 +3,9 @@
 .footer {
 	background-color: makerGreen;
 	text-align: center;
-	padding: 0.3rem;
+	width: 100%;
 }
 
-.footer span {
+.title {
 	color: makerWhite;
-	font-size: 0.8rem;
 }
